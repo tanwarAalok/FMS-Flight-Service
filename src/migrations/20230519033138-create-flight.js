@@ -12,7 +12,7 @@ module.exports = {
       flightNumber: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: true
+        unique: true,
       },
       airplaneId: {
         type: Sequelize.INTEGER,
